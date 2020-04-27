@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Casa Criativa</title>
+
+        {%include "head.html" %}
+           
+    </head>
+
+    <body>
+
+        <div id="container">
+            {% block "content" %} {% end block %}
+        </div>
+        
+        {%include "modal.html" %}
+
+        
+
+        <script src="/script.js"></script>
+
+    </body>  
+
+</html>
